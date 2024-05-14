@@ -7,9 +7,11 @@
 }
 
 #nav-bar {
-    background-color: gray;
-    padding: 10px;
     position: fixed;
+    background-color: gray;
+    padding: 15px;
+    width: 100%;
+    top: 0;
 }
 
 #nav-bar ul {
@@ -17,4 +19,10 @@
     display: flex;
     justify-content: space-around;
     gap: 10px;
+}
+
+#introduccion {
+
+    height: 95vh;
+    margin-top: 3.2em;
 }
